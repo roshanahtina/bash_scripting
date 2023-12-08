@@ -1,6 +1,6 @@
 #!/bin/bash
 LOG_TARGET="/home/$USER/LOG_BACKUP"
-LOG_SOURCE="/usr/bin/"
+LOG_SOURCE="/usr/sbin/*"
 LOG_FILE="/home/$USER/LOG_BACKUP_FILE.txt"
 
 echo "Copy the file from $LOG_SOURCE to $LOG_TARGET"
