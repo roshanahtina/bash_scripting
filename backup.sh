@@ -7,4 +7,4 @@ echo "Copy the file from $LOG_SOURCE to $LOG_TARGET"
 mkdir $LOG_TARGET
 cp -v $LOG_SOURCE $LOG_TARGET >> $LOG_FILE 2>&1
 echo "Coyping the file from $LOG_SOURCE to $LOG_TARGET is finished"
-exit" 
+exit
