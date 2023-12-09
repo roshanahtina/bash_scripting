@@ -15,6 +15,13 @@ echo $CLOUDNUMBER
 #Call the init function to create a dir
 init
 
+tail () {
+sudo  tail -n 2 $1 2>&1 
+}
+
+# Read a message of last lines from "/var/logs/messages"
+tail
+
 #Copying the files from source to target
 cp -v $LOG_SOURCE $LOG_TARGET >> $LOG_FILE 2>&1
 echo "Coyping the file from $LOG_SOURCE to $LOG_TARGET is finished"
