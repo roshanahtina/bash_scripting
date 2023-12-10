@@ -9,8 +9,3 @@ until [ $COUNTER -lt 10 ]; do
 done
 
 exit
-
-
-
-
-
